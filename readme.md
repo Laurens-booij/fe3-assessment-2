@@ -1,6 +1,6 @@
 # Interactive grouped bar chart
 ## Preview
-![preview][preview]
+![alt text][preview]
 
 ## Description
 This is a interactive grouped bar chart based on [Block 3887051][source] by [Mike Bostock][author].
