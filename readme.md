@@ -101,10 +101,11 @@ var keys = data.columns.slice(1);
   This solution manually stores the label values. At first I did not understand why the original code did not work for me. I eventually ran the source code and logged many of its variables, in order to see what it does. I found out that variable `keys` stored the values of the labels in an array. Because my data file did not deliver the labels properly, I ended up manually storing the values in variable `keys`.
 
 * Added event listener that are linked to the `<button>` tags in the html file. Each eventlistener runs the `adjust()` function, but with a different dataset. The code looks as follows:
+  
   ```javascript
   d3.select(".buttonWomen").on("click", function(){adjust(dataWomen);});
   d3.select(".buttonMen").on("click", function(){adjust(dataMen);});  
- ```
+  ```
 
 * Added `show(dataWomen);` to load the initial chart upon loading the page.
 
