@@ -1,3 +1,5 @@
+// based on: https://bl.ocks.org/mbostock/3887051 by Mike Bostock
+
 var svg = d3.select("body").append("svg").attr("width", "1200").attr("height", "500"), // Appends a svg to the body and adds height and width attributes to it
     margin = {top: 50, right: 20, bottom: 30, left: 60},
     width = 960 - margin.left - margin.right,
